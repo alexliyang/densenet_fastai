@@ -1,4 +1,3 @@
-import torch
 from densenet import *
 import torchvision
 from collections import OrderedDict
