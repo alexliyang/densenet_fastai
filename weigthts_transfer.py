@@ -20,7 +20,7 @@ torch_models = {
 for m in tqdm(dn_models.keys()):
     print(f"Fixing {m}")
     # densenet with layer names fixed
-    dnetm = models[m]()
+    dnetm = dn_models[m]()
     # original densenet 
     dnet = torch_models[m](True).eval()
 
